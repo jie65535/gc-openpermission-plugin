@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group 'com.github.jie65535.openpermission'
+version '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation fileTree(dir: 'lib', include: ['*.jar'])
+}
+
+jar {
+    jar.baseName = 'openpermission'
+
+    destinationDir = file(".")
+}

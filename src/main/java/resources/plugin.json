@@ -1,0 +1,8 @@
+{
+  "name": "openpermission-plugin",
+  "description": "Open permission customization",
+  "version": "1.0.0",
+  "mainClass": "com.github.jie65535.openpermission.OpenPermissionPlugin",
+  "authors": ["jie65535"],
+  "api": 2
+}
