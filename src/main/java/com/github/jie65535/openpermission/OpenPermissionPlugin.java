@@ -17,9 +17,6 @@ public class OpenPermissionPlugin extends Plugin {
     private static final Map<String, String> DEFAULT_REPLACES = new HashMap<>() {{
         put("server.stop", CONSOLE);
         put("server.reload", CONSOLE);
-        put("server.announce", CONSOLE);
-        put("server.ban", CONSOLE);
-        put("server.kick", CONSOLE);
     }};
     private static final String REPLACES_FILE_NAME = "replaces.json";
     private OpenPermissionHandler openPermissionHandler;

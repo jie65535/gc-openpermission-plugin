@@ -11,9 +11,6 @@ Configuration save `replaces.json`
 |-----------------|--------------|
 | server.stop     | console      |
 | server.reload   | console      |
-| server.announce | console      |
-| server.ban      | console      |
-| server.kick     | console      |
 
 
 # All Permissions (v1.6.1)
